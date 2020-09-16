@@ -16,7 +16,7 @@ class Application(object):
         self.bottom.pack(fill=X)
 
         #top frame design
-        self.top_image=PhotoImage(file="C:/Users/Akshay/Desktop/phone.png")
+        self.top_image=PhotoImage(file="phone.png")
         self.top_image_label=Label(self.top,image=self.top_image)
         self.top_image_label.place(x=150,y=35)
 
@@ -37,7 +37,7 @@ class Application(object):
             self.bottom_addcontact_window_frame=Frame(top2,height=600,bg="#dbfc00")
             self.bottom_addcontact_window_frame.pack(fill=X)
 
-            self.top_addcontact_image=PhotoImage(file="C:/Users/Akshay/Desktop/addcontacts.png")
+            self.top_addcontact_image=PhotoImage(file="addcontacts.png")
             self.top_addcontact_image_label=Label(top2,image=self.top_addcontact_image)
             self.top_addcontact_image_label.place(x=150,y=35)
 
@@ -186,7 +186,7 @@ class Application(object):
             self.bottom_display_window_frame=Frame(top4,height=600,bg="#dbfc00")
             self.bottom_display_window_frame.pack(fill=X)
 
-            self.top_display_image=PhotoImage(file="C:/Users/Akshay/Desktop/contacts.png")
+            self.top_display_image=PhotoImage(file="contacts.png")
             self.top_display_image_label=Label(top4,image=self.top_display_image)
             self.top_display_image_label.place(x=150,y=35)
 
@@ -263,7 +263,7 @@ class Application(object):
             self.bottom_window_frame2=Frame(top1,height=600,bg="#dbfc00")
             self.bottom_window_frame2.pack(fill=X)
 
-            self.top_image1=PhotoImage(file="C:/Users/Akshay/Desktop/contacts.png")
+            self.top_image1=PhotoImage(file="contacts.png")
             self.top_image_label1=Label(top1,image=self.top_image1)
             self.top_image_label1.place(x=150,y=35)
 
